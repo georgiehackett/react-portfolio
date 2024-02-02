@@ -1,13 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import './Navbar.css'
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import * as bootstrap from "bootstrap";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-      <div className="container-fluid m-2">
-        <span className="navbar-brand">Georgie Hackett</span>
+    <nav className="navbar navbar-expand-lg fixed-top">
+      <div className="container-fluid m-4">
+        <span className="nav-item ms-5">Georgie Hackett</span>
         <button
           className="navbar-toggler"
           type="button"
@@ -20,7 +21,7 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse justify-content-around" id="navbarTogglerDemo02">
+        <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
           <ul className="navbar-nav">
             <li className="nav-item mx-5">
                 <NavLink className={({ isActive }) =>
