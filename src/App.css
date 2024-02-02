@@ -1,4 +1,10 @@
-#root {
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f8f7 !important;
+  color: #22201e;
+}
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +45,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
